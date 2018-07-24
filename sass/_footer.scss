@@ -1,12 +1,13 @@
 footer{
-	@include footer1(10px, $fuentePrincipal, $colorSass) ;
+	@include footer1(10px, $fuentePrincipal, $colorFooter) ;
 	
 	li {
 		@extend %listas;
 		font-weight: bold;
+		color: $colorSass;
 		a {
 			text-decoration: none;
-			color: $blanco;
+			color: $colorSass;
 		}
 	}
 }

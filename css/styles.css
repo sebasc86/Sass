@@ -107,10 +107,11 @@ footer {
   color: #fff;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
-  background: #cc6699;
+  background: #494949;
   justify-content: space-around; }
   footer li {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #cc6699; }
     footer li a {
       text-decoration: none;
-      color: #fff; }
+      color: #cc6699; }
