@@ -1,0 +1,30 @@
+.variables {
+	padding: 50px 0;
+	background: $colorSass;
+
+	h2 {
+		@extend %titulos;
+		color: $blanco;
+ 	}
+
+	p {
+		@extend %parrafos;
+		color: $blanco;
+	}
+
+	.ejemplo {
+		background: $negro;
+		padding: 10px 20px 5px;
+		display: block;
+		width: 330px;
+		p {
+			color: #80db4e;
+		}
+
+	}
+
+	a {
+		@include boton(100px, 2px, $blanco, $colorSass);
+	}
+}
+

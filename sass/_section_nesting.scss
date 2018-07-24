@@ -1,0 +1,29 @@
+.nesting {
+	padding: 50px 0;
+	background: $blanco;
+
+	h2 {
+		@extend %titulos;
+		color: $negro;
+ 	}
+
+	p {
+		@extend %parrafos;
+		color: $negro;
+	}
+
+	.ejemplo {
+		background: $negro;
+		padding: 10px 20px 5px;
+		display: block;
+		width: 330px;
+		p {
+			color: #80db4e;
+		}
+
+	}
+
+	a {
+		@include boton(100px, 2px, $colorSass, $blanco);
+	}
+}

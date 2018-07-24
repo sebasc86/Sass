@@ -1,0 +1,19 @@
+@mixin boton($mt, $br, $colorFondo, $colorTexto) {
+	display: inline-block;
+	background: $colorFondo;
+	padding: 5px 10px;
+	color: $colorTexto;
+	font-family: $fuentePrincipal;
+	padding: 10px;
+	margin-top: $mt;
+	border-radius: $br;
+}
+
+@mixin footer1($pd, $font, $colorFondo) {
+	display: flex;
+	color: $blanco;
+	padding: $pd;
+	font-family: $font;
+	background: $colorFondo;
+	justify-content: space-around;
+}

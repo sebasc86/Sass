@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+.intro h2, .variables h2, .nesting h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  font-size: 2.5rem;
+  margin-bottom: 20px; }
+
+.intro p, .variables p, .nesting p {
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 200%; }
+
+footer li {
+  font-size: 1.2rem;
+  padding: 10px; }
+
+.contenedor {
+  width: 80%;
+  margin: auto; }
+
+header {
+  padding: 20px;
+  background: #cc6699; }
+  header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .contenedor h1 {
+      color: #fff; }
+    header .contenedor nav ul li {
+      display: inline-block;
+      margin: 0 15px; }
+      header .contenedor nav ul li a {
+        color: #fff;
+        font-family: "Montserrat", sans-serif; }
+
+.intro {
+  padding: 50px 0; }
+  .intro a {
+    display: inline-block;
+    background: #cc6699;
+    padding: 5px 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px; }
+
+.variables {
+  padding: 50px 0;
+  background: #cc6699; }
+  .variables h2 {
+    color: #fff; }
+  .variables p {
+    color: #fff; }
+  .variables .ejemplo {
+    background: #222;
+    padding: 10px 20px 5px;
+    display: block;
+    width: 330px; }
+    .variables .ejemplo p {
+      color: #80db4e; }
+  .variables a {
+    display: inline-block;
+    background: #fff;
+    padding: 5px 10px;
+    color: #cc6699;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 2px; }
+
+.nesting {
+  padding: 50px 0;
+  background: #fff; }
+  .nesting h2 {
+    color: #222; }
+  .nesting p {
+    color: #222; }
+  .nesting .ejemplo {
+    background: #222;
+    padding: 10px 20px 5px;
+    display: block;
+    width: 330px; }
+    .nesting .ejemplo p {
+      color: #80db4e; }
+  .nesting a {
+    display: inline-block;
+    background: #cc6699;
+    padding: 5px 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 2px; }
+
+footer {
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background: #cc6699;
+  justify-content: space-around; }
+  footer li {
+    font-weight: bold; }
+    footer li a {
+      text-decoration: none;
+      color: #fff; }

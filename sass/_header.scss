@@ -1,0 +1,26 @@
+header {
+	padding: 20px;
+	background: $colorSass;
+
+	.contenedor {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h1 {
+			color: $blanco;
+		}
+		nav {
+			ul {
+				li {
+					display: inline-block;
+					margin: 0 15px;
+					a {
+						color: $blanco;
+						font-family: $fuentePrincipal;
+					}
+				}
+			}
+		}
+	} //cierra al contendor
+} //cierra al contendor
+
